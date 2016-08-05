@@ -1,0 +1,66 @@
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    font-family: Roboto, sans-serif;
+  }
+
+  .transactions-chart {
+    margin: 2rem 0;
+    background: #ffffff;
+  }
+
+  // Group
+
+  g.back-label-group:hover {
+    cursor: pointer;
+  }
+
+
+  // Text
+
+  text.total-label {
+    font-size: 3rem;
+    font-weight: 700;
+    fill: #282828;
+  }
+
+  text.total-label-info {
+    font-size: 2.5rem;
+    fill: #3B3B3B;
+  }
+
+  text.label-text {
+    font-weight: 400;
+    fill: #6F6F6F;
+    font-size: 1.3rem;
+
+    &:hover {
+      cursor: pointer;
+      fill: #000000;
+    }
+  }
+
+  text.back-label {
+    font-size: 2rem;
+  }
+
+  text.back-angle {
+    font-family: 'FontAwesome';
+    fill: #333;
+    stroke: #333;
+    font-size: 2rem;
+  }
+
+  // Path
+
+  path {
+    transition: transform 0.5s ease-out;
+  }
+
+  // Image
+
+  image.label-icon:hover {
+    cursor: pointer;
+  }

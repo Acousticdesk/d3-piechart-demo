@@ -1,0 +1,14 @@
+{
+  "name": "piechart",
+  "main": "piechart.js",
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
